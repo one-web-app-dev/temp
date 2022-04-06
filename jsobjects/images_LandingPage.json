@@ -1,0 +1,27 @@
+{
+  "unpublishedCollection": {
+    "name": "images",
+    "pageId": "LandingPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\timages: [\n\t\t\"https://github.com/IAmAnubhavSaini/git-test/raw/data/Screenshot-2022.02.03-10.20.49.png\",\n\t\t\"https://github.com/IAmAnubhavSaini/git-test/raw/data/Screenshot-2022.02.03-17.31.57.png\",\n\t\t\"https://github.com/IAmAnubhavSaini/git-test/raw/data/Screenshot-2022.02.03-17.32.17.png\",\n\t\t\"https://github.com/IAmAnubhavSaini/git-test/raw/data/Screenshot-2022.02.03-17.32.31.png\",\n\t\t\"https://github.com/IAmAnubhavSaini/git-test/raw/data/Screenshot-2022.02.03-17.32.39.png\",\n\t\t\"https://github.com/IAmAnubhavSaini/git-test/raw/data/Screenshot-2022.02.03-17.32.55.png\"\n\t],\n\tgetCurrentIndex() {\n\t\tconsole.log(appsmith.store.imageIndex)\n\t\treturn appsmith.store.imageIndex || 0\n\t},\n\tgetImage() {\n\t\tconsole.log(appsmith.store.imageIndex)\n\t\treturn this.images[this.getCurrentIndex()]\n\t},\n\tasync nextImage() {\n\t\tappsmith.store.imageIndex = (this.getCurrentIndex() + 1) % this.images.length\n\t\tconsole.log(appsmith.store.imageIndex)\n\t\treturn this.images[this.getCurrentIndex()]\n\t},\n\tasync prevImage() {\n\t\tappsmith.store.imageIndex = this.getCurrentIndex() < 1 ? this.images.length -1 : (this.getCurrentIndex() -1)\n\t\tconsole.log(appsmith.store.imageIndex)\n\t\treturn this.images[this.getCurrentIndex()]\n\t}\n}\n",
+    "variables": [
+      {
+        "name": "images",
+        "value": [
+          "https://github.com/IAmAnubhavSaini/git-test/raw/data/Screenshot-2022.02.03-10.20.49.png",
+          "https://github.com/IAmAnubhavSaini/git-test/raw/data/Screenshot-2022.02.03-17.31.57.png",
+          "https://github.com/IAmAnubhavSaini/git-test/raw/data/Screenshot-2022.02.03-17.32.17.png",
+          "https://github.com/IAmAnubhavSaini/git-test/raw/data/Screenshot-2022.02.03-17.32.31.png",
+          "https://github.com/IAmAnubhavSaini/git-test/raw/data/Screenshot-2022.02.03-17.32.39.png",
+          "https://github.com/IAmAnubhavSaini/git-test/raw/data/Screenshot-2022.02.03-17.32.55.png"
+        ]
+      }
+    ]
+  },
+  "id": "LandingPage_images",
+  "deleted": false,
+  "gitSyncId": "61fb5d1b2cd3d95ca414abde_61fbc4672cd3d95ca414b5f9"
+}
