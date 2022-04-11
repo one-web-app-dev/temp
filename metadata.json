@@ -5,15 +5,19 @@
   "publishedDefaultPageName": "LandingPage",
   "unpublishedDefaultPageName": "LandingPage",
   "invisibleActionFields": {
-    "LandingPage_images.getImage": {
+    "LandingPage_Api1": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "LandingPage_Query2": {
+    "LandingPage_Api2": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "LandingPage_getMovies": {
+    "LandingPage_JSObject1.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "LandingPage_JSObject1.myFun2": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
@@ -21,11 +25,7 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "LandingPage_Api1": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "LandingPage_Query4": {
+    "LandingPage_Query2": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
@@ -33,7 +33,23 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "LandingPage_images.prevImage": {
+    "LandingPage_Query4": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "LandingPage_Query5": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "LandingPage_Query6": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "LandingPage_Query7": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "LandingPage_getMovies": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
@@ -41,7 +57,15 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
+    "LandingPage_images.getImage": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "LandingPage_images.nextImage": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "LandingPage_images.prevImage": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     }
